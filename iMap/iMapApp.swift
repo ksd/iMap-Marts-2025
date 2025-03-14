@@ -11,7 +11,7 @@ import SwiftUI
 struct iMapApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environment(LocationController())
         }
     }
 }
